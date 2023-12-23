@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c;
+    cout<<"Enter two humbers";
+    cin>>a>>b;
+    cout<<"The greatest number is: ";
+    cout<<(c=(a>b)?a:b);
+    return 0;
+}
