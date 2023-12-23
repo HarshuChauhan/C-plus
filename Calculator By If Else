@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,d;
+    char c;
+    cout<<"Enter two numbers";
+    cin>>a>>b;
+    cout<<"Enter an operator";
+    cin>>c;
+    if(c=='+')
+    {
+        d=a+b;
+        cout<<d<<" is the sum";
+    }
+    else if(c=='-')
+    {
+        d=a-b;
+        cout<<d<<" is the differance";
+    }
+    else if(c=='*')
+    {
+        d=a*b;
+        cout<<d<<" is the multiplication";
+    }
+    else if(c=='/')
+    {
+        d=a/b;
+        cout<<d<<" is the division";
+    }
+    else
+    cout<<"Enter a valid operator";
+    return 0;
+}
